@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:translate="clr-namespace:LanguagesXF.Resources"
+             x:Class="LanguagesXF.MainPage">
+    <ContentPage.Content>
+        <StackLayout Spacing="10" >
+            <Label Text="{translate:Translate XamarinAdviento}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+    
+            <Button x:Name="BtnSp" Clicked="Tapped_TranslateToSpanish" />
+            <Button x:Name="BtnEn" Clicked="Tapped_TranslateToEnglish" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
